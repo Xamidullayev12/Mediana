@@ -60,7 +60,7 @@ export default function Header() {
                                     </div>
                                 </NavLink>
                             </li>
-                            <li className={splitLocation[1] === "faq" ? "text-indigo-600" : ""}>
+                            <li className={splitLocation[1] === "course" ? "text-indigo-600 font-extrabold" : ""}>
                                 <NavLink to="/course" exact>
                                     <div className={styles.navItems}>
                                         <span>{ t ('Course')}</span>

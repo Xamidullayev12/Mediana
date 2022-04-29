@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -43,41 +43,24 @@ export default function Faq() {
                                 aria-controls="panel2a-content"
                                 id="panel2a-header"
                                 >
+                                    <Typography fontSize={'20px'} className="text-indigo-800">Accordion 1</Typography>
+                                    </AccordionSummary>
+                                    <AccordionDetails>
+                                    <Typography className="text-indigo-700">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
+                        </div>
+                        <div  data-aos="fade-left" className="my-1">
+                            <Accordion>
+                                <AccordionSummary
+                                expandIcon={<ExpandMoreIcon />}
+                                aria-controls="panel1a-content"
+                                id="panel1a-header"
+                                >
                                 <Typography fontSize={'20px'} className="text-indigo-800">Accordion 1</Typography>
-                                </AccordionSummary>
-                                <AccordionDetails>
-                                <Typography className="text-indigo-700">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                                </AccordionDetails>
-                            </Accordion>
-                        </div>
-                        <div  data-aos="fade-left" className="my-1">
-                            <Accordion>
-                                <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel2a-content"
-                                id="panel2a-header"
-                                >
-                                <Typography fontSize={'20px'} className="text-indigo-800">Accordion 2</Typography>
-                                </AccordionSummary>
-                                <AccordionDetails>
-                                <Typography className="text-indigo-700">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                                </AccordionDetails>
-                            </Accordion>
-                        </div>
-                        <div  data-aos="fade-left" className="my-1">
-                            <Accordion>
-                                <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
-                                aria-controls="panel2a-content"
-                                id="panel2a-header"
-                                >
-                                <Typography fontSize={'20px'} className="text-indigo-800">Accordion 2</Typography>
                                 </AccordionSummary>
                                 <AccordionDetails>
                                 <Typography className="text-indigo-700">
@@ -110,3 +93,5 @@ export default function Faq() {
         </section>
     )
 }
+
+
