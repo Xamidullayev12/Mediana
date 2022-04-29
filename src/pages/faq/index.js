@@ -3,7 +3,8 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { IoIosArrowDown } from "react-icons/io"
 
 //      Image 
 import main_bg from "../../image/FAQ/bg-faq.gif"
@@ -39,7 +40,7 @@ export default function Faq() {
                         <div  data-aos="fade-left" className="my-1">
                             <Accordion>
                                 <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
+                                expandIcon={<IoIosArrowDown />}
                                 aria-controls="panel2a-content"
                                 id="panel2a-header"
                                 >
@@ -56,7 +57,7 @@ export default function Faq() {
                         <div  data-aos="fade-left" className="my-1">
                             <Accordion>
                                 <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
+                                expandIcon={<IoIosArrowDown />}
                                 aria-controls="panel1a-content"
                                 id="panel1a-header"
                                 >
@@ -73,7 +74,7 @@ export default function Faq() {
                         <div  data-aos="fade-left" className="my-1">
                             <Accordion>
                                 <AccordionSummary
-                                expandIcon={<ExpandMoreIcon />}
+                                expandIcon={<IoIosArrowDown />}
                                 aria-controls="panel2a-content"
                                 id="panel2a-header"
                                 >
