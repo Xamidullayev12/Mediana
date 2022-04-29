@@ -1,0 +1,56 @@
+[
+    {
+        "id" : "1",
+        "title" : "Frontend",
+        "image" :"https://ak.picdn.net/shutterstock/videos/29974147/thumb/8.jpg",
+        "userImage" : "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+        "content_1" : "Web-sayt va web-dasturlarni yaratish",
+        "content_2" : "",
+        "content_3" : ""
+    },
+    {
+        "id" : "2",
+        "title" : "Backend",
+        "image" : "https://media.istockphoto.com/photos/programmer-working-with-program-code-picture-id1075599562?b=1&k=20&m=1075599562&s=170667a&w=0&h=cZqbPs4YOWzY6oqR-L5OUXNnC_g-1xl8kxcClNjuk5k=",
+        "userImage" : "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+        "content_1" : "Web-sayt va web-dasturlarni yaratish",
+        "content_2" : "",
+        "content_3" : ""
+    },
+    {
+        "id" : "3",
+        "title" : "Full Stack",
+        "image" : "https://swansoftwaresolutions.com/wp-content/uploads/2020/04/05.14.20-Meet-a-Full-Stack-Developer-Vlad-Ryba-1024x576.jpg",
+        "userImage" : "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+        "content_1" : "",
+        "content_2" : "",
+        "content_3" : ""
+    },
+    {
+        "id" : "4",
+        "title" : "3DS-MAX",
+        "image" : "https://2.bp.blogspot.com/-hRGOJ4di3WY/WO6IJ7dcfuI/AAAAAAAAM7Y/i_gx6gKR1OseaZikmHz89sdXsMB-LHHswCLcB/s1600/Autodesk%2B3ds%2BMax%2B2018%2B04.jpg",
+        "userImage" : "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+        "content_1" : "Professional 3D modellash va vizuallashtirish",
+        "content_2" : "",
+        "content_3" : ""
+    }, 
+    {
+        "id" : "5",
+        "title" : "SMM ",
+        "image" : "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-26-aom-2510-smmd_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=40182a3084598ff7acad36468de9abd7",
+        "userImage" : "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+        "content_1" : "Internetda harqnday biznesni malakali targ'ib qilish",
+        "content_2" : "",
+        "content_3" : ""
+    },
+    {
+        "id" : "6",
+        "title" : "UI/UX Desing",
+        "image" : "https://wallpaperaccess.com/full/6000163.jpg",
+        "userImage" : "https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+        "content_1" : "Web-dizayn, grafik dizayn va poligrafiya",
+        "content_2" : "",
+        "content_3" : ""
+    } 
+]

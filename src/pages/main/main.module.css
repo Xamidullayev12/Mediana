@@ -1,0 +1,139 @@
+
+
+
+
+
+
+
+
+
+.modalContainer {
+    position: fixed;
+    top: 0;
+    left: 150%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1000000;
+    cursor: pointer;
+    opacity: 1;
+    animation-timing-function: ease-out;
+    animation-duration: .3s;
+    animation-name: modal-video;
+    transition: opacity .37s ease-out;
+}
+
+.modalContainerActive {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1000000;
+    cursor: pointer;
+    opacity: 1;
+    animation-timing-function: ease-out;
+    animation-duration: .37s;
+    animation-name: modal-video;
+    transition: opacity .37s ease-out;
+}
+
+.modalVideoBody {
+    max-width: 960px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 100px;
+
+}
+
+.modalVideoInner {
+    padding: 10px 60px;
+    box-sizing: border-box;
+}
+
+.modalVideoMovieWrap {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    background-color: #333;
+    animation-timing-function: ease-out;
+    animation-duration: .3s;
+    animation-name: modal-video-inner;
+    transform: translate(0);
+    transition: transform .3s ease-out;
+}
+
+
+.remove {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    right: 50px;
+    top: 8px;
+}
+
+.remove::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f2f4f5;
+    position: absolute;
+    top: 14px;
+    left: -0px;
+    transform: rotateZ(45deg)
+}
+
+.remove::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f2f4f5;
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    transform: rotateZ(-45deg)
+}
+
+
+
+
+
+
+
+/* 
+.triangle {
+    width: 0;
+    height: 0;
+    max-width: 200px auto;
+    position: relative;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 70px solid blue;
+    border-radius: 50%;
+    transform: rotateZ(-123deg);
+    position: relative;
+} */
+
+/* 
+.triangle::before {
+    content: "";
+    width: 0;
+    height: 0;
+    max-width: 200px auto;
+    position: absolute;
+    top: 6px;
+    right: -35px;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 61px solid white;
+    border-radius: 50%;
+    transform: rotateZ(-123deg)
+} */

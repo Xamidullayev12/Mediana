@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+.footer {
+    position: relative;
+    width: 100%;
+}
+
+.footer::before {
+    content: "";
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    top: -42px;
+    left: 2px;
+    background-color: rgb(29 78 216);
+    transform: rotate(4deg) skew(0deg, -1deg);
+    z-index: 1;
+}
+
+
+.footer::after {
+    content: "";
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    top: -43px;
+    right: 2px;
+    background-color: rgb(29 78 216);
+    transform: rotate(-4deg) skew(0deg, 1deg);
+    z-index: 1;
+}
